@@ -1,0 +1,16 @@
+{
+    "101": {
+        "name": "Saranya",
+        "course": "Python Programming",
+        "department": "CSE",
+        "marks": 88,
+        "attendance": 82
+    },
+    "103": {
+        "name": "Neha",
+        "course": "Data Science",
+        "department": "CSE",
+        "marks": 85,
+        "attendance": 80
+    }
+}
