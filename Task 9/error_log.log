@@ -1,0 +1,12 @@
+2026-01-29 14:09:19,834 - ERROR - TypeError occurred: Type mismatch
+Traceback (most recent call last):
+  File "C:\Users\saran\OneDrive\Python-internship\Task 9\error_handling.py", line 27, in perform_operations
+    final_value = text + result
+                  ~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
+2026-01-29 14:10:28,806 - ERROR - TypeError occurred: Type mismatch
+Traceback (most recent call last):
+  File "C:\Users\saran\OneDrive\Python-internship\Task 9\error_handling.py", line 24, in perform_operations
+    final_value = text + result
+                  ~~~~~^~~~~~~~
+TypeError: can only concatenate str (not "float") to str
