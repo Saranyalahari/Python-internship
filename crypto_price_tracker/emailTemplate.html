@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .alert-box {
+            background-color: #ff4757;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff4757;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+        button {
+            background-color: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💰 Crypto Price Alert</h1>
+        </div>
+        <div class="content">
+            <h2>Price Threshold Reached!</h2>
+            <div class="alert-box">
+                <p><strong>Cryptocurrency:</strong> {{crypto}}</p>
+                <p><strong>Alert Type:</strong> {{alert_type}}</p>
+                <p><strong>Threshold Price:</strong> ${{threshold_price}}</p>
+                <p><strong>Current Price:</strong> <span class="price">${{current_price}}</span></p>
+                <p><strong>Time:</strong> {{timestamp}}</p>
+            </div>
+            <p>Your price alert has been triggered. Monitor the price movements in your Streamlit dashboard.</p>
+            <a href="http://localhost:8501">
+                <button>Open Tracker Dashboard</button>
+            </a>
+        </div>
+        <div class="footer">
+            <p>This is an automated alert from Crypto Price Tracker</p>
+            <p>To manage your alerts, visit the Streamlit application.</p>
+        </div>
+    </div>
+</body>
+</html>

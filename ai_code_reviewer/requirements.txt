@@ -1,0 +1,6 @@
+streamlit
+flake8
+black
+radon
+pandas
+plotly
